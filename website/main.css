@@ -1,0 +1,35 @@
+/* overall color scheme is #33ccff */
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+} 
+
+/* parallax effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image */
+.bgimg-1 {
+    background-image: ;
+    min-height: 100%;
+}
+
+/* Second image */
+.bgimg-2 {
+    background-image: "\images\server.jpg" ;
+    min-height: 400px;
+}
+
+/* Third image */
+.bgimg-3 {
+    background-image: ;
+    min-height: 400px;
+}
